@@ -1,0 +1,5 @@
+.vagrant
+vendor/roles
+group_vars/all/github.yml
+group_vars/staging
+group_vars/production
