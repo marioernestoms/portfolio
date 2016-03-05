@@ -1,13 +1,13 @@
 <?php
 /**
- * marioernestoms functions and definitions.
+ * marioernesto functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package marioernestoms
+ * @package marioernesto
  */
 
-if ( ! function_exists( 'marioernestoms_setup' ) ) :
+if ( ! function_exists( 'marioernesto_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -15,14 +15,14 @@ if ( ! function_exists( 'marioernestoms_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function marioernestoms_setup() {
+function marioernesto_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on marioernestoms, use a find and replace
-	 * to change 'marioernestoms' to the name of your theme in all the template files.
+	 * If you're building a theme based on marioernesto, use a find and replace
+	 * to change 'marioernesto' to the name of your theme in all the template files.
 	 */
-	load_theme_textdomain( 'marioernestoms', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'marioernesto', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -44,7 +44,7 @@ function marioernestoms_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'marioernestoms' ),
+		'primary' => esc_html__( 'Primary', 'marioernesto' ),
 	) );
 
 	/*
@@ -72,13 +72,13 @@ function marioernestoms_setup() {
 	) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'marioernestoms_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'marioernesto_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
 }
 endif;
-add_action( 'after_setup_theme', 'marioernestoms_setup' );
+add_action( 'after_setup_theme', 'marioernesto_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -87,19 +87,19 @@ add_action( 'after_setup_theme', 'marioernestoms_setup' );
  *
  * @global int $content_width
  */
-function marioernestoms_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'marioernestoms_content_width', 640 );
+function marioernesto_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'marioernesto_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'marioernestoms_content_width', 0 );
+add_action( 'after_setup_theme', 'marioernesto_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function marioernestoms_widgets_init() {
+function marioernesto_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'marioernestoms' ),
+		'name'          => esc_html__( 'Sidebar', 'marioernesto' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -108,45 +108,45 @@ function marioernestoms_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'marioernestoms_widgets_init' );
+add_action( 'widgets_init', 'marioernesto_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function marioernestoms_scripts() {
-	wp_enqueue_style( 'marioernestoms-style', get_stylesheet_uri() );
+function marioernesto_scripts() {
+	wp_enqueue_style( 'marioernesto-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'marioernestoms-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'marioernesto-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'marioernestoms-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'marioernesto-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'marioernestoms_scripts' );
+add_action( 'wp_enqueue_scripts', 'marioernesto_scripts' );
 
 /**
  * Implement the Custom Header feature.
  */
-require get_template_directory() . '/core/inc/custom-header.php';
+require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/core/inc/template-tags.php';
+require get_template_directory() . '/inc/template-tags.php';
 
 /**
  * Custom functions that act independently of the theme templates.
  */
-require get_template_directory() . '/core/inc/extras.php';
+require get_template_directory() . '/inc/extras.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/core/inc/customizer.php';
+require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/core/inc/jetpack.php';
+require get_template_directory() . '/inc/jetpack.php';
