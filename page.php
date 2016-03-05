@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package marioernesto
+ * @package marioernestoms
  */
 
 get_header(); ?>

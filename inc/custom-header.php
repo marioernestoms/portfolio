@@ -12,33 +12,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package marioernesto
+ * @package marioernestoms
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses marioernesto_header_style()
+ * @uses marioernestoms_header_style()
  */
-function marioernesto_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'marioernesto_custom_header_args', array(
+function marioernestoms_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'marioernestoms_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'marioernesto_header_style',
+		'wp-head-callback'       => 'marioernestoms_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'marioernesto_custom_header_setup' );
+add_action( 'after_setup_theme', 'marioernestoms_custom_header_setup' );
 
-if ( ! function_exists( 'marioernesto_header_style' ) ) :
+if ( ! function_exists( 'marioernestoms_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see marioernesto_custom_header_setup().
+ * @see marioernestoms_custom_header_setup().
  */
-function marioernesto_header_style() {
+function marioernestoms_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*
