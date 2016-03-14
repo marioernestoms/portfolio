@@ -124,7 +124,7 @@ function marioernestoms_scripts() {
 	wp_enqueue_style( 'marioernestoms-style', get_stylesheet_uri() );
 
 	
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/plugins/bootstrap.js', array(), $marioernesto_version, 'all');
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/pluginsbootstrap.js', array(), $marioernesto_version, 'all');
 
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), $marioernesto_version, 'all');
 
