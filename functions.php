@@ -117,14 +117,14 @@ function marioernestoms_scripts() {
 
 	$marioernesto_version = '1.0.1';
 
-	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), $marioernesto_version, 'all' );
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/_tools/bootstrap.css', array(), $marioernesto_version, 'all' );
 
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/main.css', array(), $marioernesto_version, 'all' );
 
 	wp_enqueue_style( 'marioernestoms-style', get_stylesheet_uri() );
 
 	
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.js', array(), $marioernesto_version, 'all');
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/plugins/bootstrap.js', array(), $marioernesto_version, 'all');
 
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), $marioernesto_version, 'all');
 
