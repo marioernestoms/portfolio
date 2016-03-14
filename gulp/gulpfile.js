@@ -10,10 +10,19 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
-// Browser Sync
+// browser-sync task for starting the server.
 gulp.task('browser-sync', function() {
-    browserSync.init({
-        proxy: "marioernesto.dev"
+    //watch files
+    var files = [
+    '../assets/main.css',
+    '../*.php'
+    ];
+ 
+    //initialize browsersync
+    browserSync.init(files, {
+    //browsersync with a php server
+    proxy: "marioernesto.dev",
+    notify: false
     });
 });
 
@@ -26,14 +35,10 @@ gulp.task('lint', function() {
 
 // Compile Our Sass
 gulp.task('sass', function () {
-    return gulp.src('/assets/scss/*.scss')
-        .pipe(sass({
-            includePaths: ['css'],
-            onError: browserSync.notify
-        }))
-        .pipe(gulp.dest('/assets/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('assets/css'));
+    return gulp.src('../assets/css/main.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('../assets/css'))
+        .pipe(reload({stream:true}));
 });
 
 // Concatenate & Minify JS
@@ -49,7 +54,7 @@ gulp.task('scripts', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('../assets/js/*.js', ['lint', 'scripts']);
-    gulp.watch('../assets/scss/*.scss', ['sass']);
+    gulp.watch('../assets/css/**', ['sass']);
 });
 
 // Default Task
