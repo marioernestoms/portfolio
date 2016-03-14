@@ -8,12 +8,12 @@ a {
   color: #888; }
 
 a:visited {
-  color: purple; }
+  color: #ccc; }
 
 a:hover,
 a:focus,
 a:active {
-  color: midnightblue; }
+  color: #ccc; }
 
 a:focus {
   outline: thin dotted; }
@@ -25,6 +25,11 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+nav {
+  background: #000;
+  margin: 20px 0;
+  padding: 10px 0; }
+
 .main-navigation {
   clear: both;
   display: block;
@@ -42,6 +47,7 @@ a:active {
   position: relative; }
 
 .main-navigation a {
+  color: #fff;
   display: block;
   text-decoration: none; }
 
@@ -97,3 +103,8 @@ a:active {
   float: right;
   text-align: right;
   width: 50%; }
+
+.site-footer {
+  border-top: 1px dotted #ccc;
+  margin-top: 20px;
+  padding: 20px; }
