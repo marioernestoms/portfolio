@@ -35,6 +35,8 @@ function marioernestoms_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 
+	show_admin_bar( false );
+
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
@@ -76,6 +78,9 @@ function marioernestoms_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	// Set up custom thumbnail sizes.
+	add_image_size( 'portfolio-size', 180, 180, true );
 }
 endif;
 add_action( 'after_setup_theme', 'marioernestoms_setup' );
@@ -119,18 +124,16 @@ function marioernestoms_scripts() {
 
 	wp_enqueue_script('jquery', array(), $marioernesto_version, 'all');
 
-	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/_tools/bootstrap.css', array(), $marioernesto_version, 'all' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/bower_components/font-awesome/css/font-awesome.min.css', array(), $marioernesto_version, 'all' );
 
-	wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/main.css', array(), $marioernesto_version, 'all' );
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/main.css', array(), $marioernesto_version, 'all' );
 
 	wp_enqueue_style( 'marioernestoms-style', get_stylesheet_uri() );
 
 	
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/plugins/bootstrap.js', array(), $marioernesto_version, 'all');
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', array(), $marioernesto_version, 'all');
 
-	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), $marioernesto_version, 'all');
-
-	wp_enqueue_script( 'skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), $marioernesto_version, 'all');
+	wp_enqueue_script( 'easing', get_template_directory_uri() . '/assets/js/jquery.easing.min.js', array(), $marioernesto_version, 'all');
 
 	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/assets/js/scripts.js', array(), $marioernesto_version, 'all');
 
@@ -144,6 +147,11 @@ add_action( 'wp_enqueue_scripts', 'marioernestoms_scripts' );
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
+
+/**
+ * Implement the Custom Post Types.
+ */
+require get_template_directory() . '/inc/custom-posts.php';
 
 /**
  * Custom template tags for this theme.

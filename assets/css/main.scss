@@ -1,9 +1,15 @@
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "font-awesome";
+
 @import "_base/vars";
 @import "_base/icons";
 @import "_base/base";
 @import "_base/buttons";
 
-@import "_layouts/home";
+@import "_layouts/intro";
+@import "_layouts/about";
+@import "_layouts/portfolio";
 
 @import "_sections/header";
 @import "_sections/footer";

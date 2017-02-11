@@ -1,0 +1,69 @@
+.about-section {
+    min-height: 85%;
+    padding-top: 70px;
+    text-align: center;
+    background: #eee;
+}
+
+.about-us {
+    text-align: left;
+}
+
+.available-frelancer {
+    margin: 15px 0;
+    padding: 10px 12px;
+    border-radius: 0;
+}
+
+.progress .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -ms-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition:  width 1s ease-in-out;
+}
+
+.top-zero{
+  margin-top: 0;
+}
+
+#company-information .about-us h2{
+  margin-bottom: 45px;
+}
+
+.our-skills p {
+    font-size: 13px; 
+}
+
+.single-skill {
+  font-size: 13px;
+}
+
+.progress{
+    margin-bottom: 5px;
+    height: 20px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.progress-bar{
+    font-size: 10px;
+    line-height: 20px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.progress-bar.progress-bar-primary{
+    background: #00aeef;
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
