@@ -1,0 +1,1130 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"bootstrap"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"bord",
+				"border-right"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"o",
+				"opacity\t(bootstrap.css)"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height\t(_grid.scss)"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"is_user",
+				"is_user_logged_in"
+			],
+			[
+				"mail",
+				"mail_context"
+			],
+			[
+				"sant",
+				"sanitized_data"
+			],
+			[
+				"da",
+				"data-toggle"
+			],
+			[
+				"el",
+				"elseif"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"data-disable",
+				"data-disable=\"click"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"agents",
+				"agents-network\t(agents.php)"
+			],
+			[
+				"remov",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"rem",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"tra",
+				"transparent\t(_grid.scss)"
+			],
+			[
+				"agent-c",
+				"agent-container\t(card-agent.php)"
+			],
+			[
+				"panel-",
+				"panel-body"
+			],
+			[
+				"high",
+				"highlighted\t(main.js)"
+			],
+			[
+				"chose",
+				"chosen.jquery.min.js\t(forms-components.html)"
+			],
+			[
+				"chosen",
+				"chosen.min.css\t(forms-components.html)"
+			],
+			[
+				"theme-prpo",
+				"theme-proxiopro"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"inb",
+				"inline-block"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"panel",
+				"panel-body"
+			],
+			[
+				"theme",
+				"theme-proxiopro"
+			],
+			[
+				"esc",
+				"esc_html_e"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"page",
+				"page-templates"
+			],
+			[
+				"_mo",
+				"_Modal\t(portfolio.php)"
+			],
+			[
+				"margint",
+				"margin-top"
+			],
+			[
+				"cur",
+				"cur\tcursor: ${pointer};"
+			],
+			[
+				"opac",
+				"opacity\topacity()"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"pjax",
+				"pjax-spin\t(search-box-listing.php)"
+			],
+			[
+				"pj",
+				"pjax-spinner\t(_overlay.scss)"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"proxio",
+				"proxio-auth"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "I started working with planning and installing Linux and Windows server infrastructures, over the years I decided to go back to the area that I am passionate about, developing websites and systems online. Today I work with all kinds of projects from simple to complex, always seeking the best experience of interaction with the user.\n\n\nget_header(); ?>\n\n    <div id=\"primary\" class=\"content-area col-sm-9 col-md-9\">\n        <main id=\"main\" class=\"site-main\" role=\"main\">\n\n        <?php\n        if ( have_posts() ) :\n\n            if ( is_home() && ! is_front_page() ) : ?>\n                <header>\n                    <h1 class=\"page-title screen-reader-text\"><?php single_post_title(); ?></h1>\n                </header>\n\n            <?php\n            endif;\n\n            /* Start the Loop */\n            while ( have_posts() ) : the_post();\n\n                /*\n                 * Include the Post-Format-specific template for the content.\n                 * If you want to override this in a child theme, then include a file\n                 * called content-___.php (where ___ is the Post Format name) and that will be used instead.\n                 */\n                get_template_part( 'template-parts/content', get_post_format() );\n\n            endwhile;\n\n            the_posts_navigation();\n\n        else :\n\n            get_template_part( 'template-parts/content', 'none' );\n\n        endif; ?>\n\n        </main><!-- #main -->\n    </div><!-- #primary -->\n\n<?php\nget_sidebar();\nget_footer();",
+			"settings":
+			{
+				"buffer_size": 1493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marioernestoms/projects/tests/html/index.php",
+			"settings":
+			{
+				"buffer_size": 2010,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"prefe",
+				"Preferences: SublimeLinter Settings – User"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 107.0,
+		"history":
+		[
+			"composer global require \"squizlabs/php_codesniffer=*\"",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/assets",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/assets/js"
+	],
+	"file_history":
+	[
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/functions.php",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/template-parts/content.php",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/gulp/gulpfile.js",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/index.php",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_base/_base.scss",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_sections/_header.scss",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/header.php",
+		"/Users/marioernestoms/projects/tests/html/template-parts/header.php",
+		"/Users/marioernestoms/projects/tests/html/index.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/gulpfile.js",
+		"/Users/marioernestoms/projects/tests/html/pages/about.php",
+		"/Users/marioernestoms/projects/tests/html/assets/css/main.scss",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-content/themes/portfolio/composer.json",
+		"/Users/marioernestoms/projects/marioernesto.com.br/wp-config.php",
+		"/Users/marioernestoms/projects/tests/html/gulp/gulpfile.js",
+		"/Users/marioernestoms/projects/tests/gulp-boilerplate/gulp/gulpfile.js",
+		"/Users/marioernestoms/projects/tests/html/bower.json",
+		"/Users/marioernestoms/projects/tests/gulp-boilerplate/bower.json",
+		"/Users/marioernestoms/projects/tests/gulp-boilerplate/package.json",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/manifest.json",
+		"/Users/marioernestoms/projects/tests/html/gulp/package.json",
+		"/Users/marioernestoms/projects/tests/html/dist/scripts/main.js",
+		"/Users/marioernestoms/projects/tests/html/bower_components/bootstrap/bower.json",
+		"/Users/marioernestoms/projects/tests/html/bower_components/jquery/bower.json",
+		"/Users/marioernestoms/projects/tests/theme/gulp/gulpfile.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/package.json",
+		"/Users/marioernestoms/projects/tests/html/assets/css/styles.css",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_layouts/_portfolio.scss",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_layouts/_portfolio",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_layouts/_about.scss",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_layouts/_intro.scss",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_tools/_fonts.scss",
+		"/Users/marioernestoms/projects/tests/html/assets/js/scripts.js",
+		"/Users/marioernestoms/projects/tests/html/triangle-free-responsive-multipurpose-template/template/multicolor/aboutus2.html",
+		"/Users/marioernestoms/projects/tests/html/template-parts/portfolio-wordpress.php",
+		"/Users/marioernestoms/projects/tests/html/template-parts/portfolio-html.php",
+		"/Users/marioernestoms/projects/tests/html/pages/portfolio.php",
+		"/Users/marioernestoms/projects/tests/html/pages/contact.php",
+		"/Users/marioernestoms/projects/tests/html/pages/intro.php",
+		"/Users/marioernestoms/projects/tests/theme/assets/css/_tools/_help.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/nifty/_helper-classes.scss",
+		"/Users/marioernestoms/projects/tests/html/assets/css/bootstrap.css",
+		"/Users/marioernestoms/projects/tests/theme/functions.php",
+		"/Users/marioernestoms/projects/tests/html/layouts/static-intro.php",
+		"/Users/marioernestoms/projects/tests/html/triangle-free-responsive-multipurpose-template/template/multicolor/js/main.js",
+		"/Users/marioernestoms/projects/tests/html/assets/js/jquery.easing.min.js",
+		"/Users/marioernestoms/projects/tests/html/triangle-free-responsive-multipurpose-template/template/multicolor/css/main.css",
+		"/Users/marioernestoms/projects/tests/html/triangle-free-responsive-multipurpose-template/template/multicolor/index.html",
+		"/Users/marioernestoms/projects/tests/fight/js/vars.js",
+		"/Users/marioernestoms/projects/tests/fight/js/main.js",
+		"/Users/marioernestoms/projects/tests/fight/css/header.min.css",
+		"/Users/marioernestoms/projects/tests/fight/index.html",
+		"/Users/marioernestoms/projects/tests/fight/css/main.min.css",
+		"/Users/marioernestoms/projects/tests/html/assets/css/_layouts/_home.scss",
+		"/Users/marioernestoms/projects/tests/theme/index.php",
+		"/Users/marioernestoms/projects/tests/html/template-parts/nav.php",
+		"/Users/marioernestoms/projects/proxiopro.com/.gitignore",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/static-notifications.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/base/_media-queries.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/templates/_home.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-navbar.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/templates/_notifications.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/static-messages.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core/js/newsfeed-infinite-scroll.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-newsfeed-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts/scripts.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/bower_components/hopscotch/demo/js/jquery-1.10.2.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/newsfeed-loop.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts/proxio.params.to.url.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts/jspdf.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts/dotdotdot.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts/proxio.ajax.form.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/newsfeed.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/base/_grid.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/templates/_messages.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/static-notifications-settings.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/proxio.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/components/_pdf-listings.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/static-mailbox.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-login.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/card-agent.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/listings.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/templates/_listings.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/nifty/_layout.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/newsfeed-loop.pjax.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/panel-agent-card.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-guided-workflows.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-guided-workflows-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-marketing-kit.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/lib/template-tags.php",
+		"/Users/marioernestoms/projects/proxiopro.com/trellis/ansible.cfg",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/components/_guided-workflows.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/components/_guides.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/widgets/proxio-guided-workflows-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/main.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/base/_vars.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/templates/_search-listings.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-view-agent-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/agents.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/posts-agents.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-guide-workflows-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/components/_forms.scss",
+		"/Users/marioernestoms/Documents/Sistema de hostel",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/widgets/proxio-guide-workflows-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-marketing-kit-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/widgets/proxio-add-listing-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/widgets/proxio-edit-agent-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/widgets/proxio-purchase-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/card-property.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/composer.json",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts/proxio.same.height.js",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/newsfeed-item.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-listing.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-listing-description.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-edit-listing-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets/proxio-pdf-listing-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core/classes/proxio-ajax.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c/resources/listing.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates/pdf-listings.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/widgets/proxio-pdf-listing-widget.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/forms/share-listing-by-email-form.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b/forms/listing-pdf-form.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/mini-card-email-listing.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio/templates/_agents.scss",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/sidebar.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/content-upgrade-subscription.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/modals/modal-delete-listing.php",
+		"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts/modals/modal-welcome-proxiopro.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio",
+			"<project>",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-mail",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-auth",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles/proxio",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/scripts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/Downloads/nifty-v2.4.1/demo",
+			"/Users/marioernestoms/Downloads/nifty-v2.4.1/demo/js",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-core",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2b",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-auth",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-auth",
+			"/Users/marioernestoms/Downloads/nifty-v2.4.1",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/Downloads/nifty-v2.4.1/demo",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-mail",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets/styles",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/assets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/plugins/proxio-b2c",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/widgets",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/template-parts",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro/page-templates",
+			"/Users/marioernestoms/projects/proxiopro.com/site/web/app/themes/theme-proxiopro",
+			"/Users/marioernestoms/projects/proxio.com/site/web/app/themes/theme-proxio",
+			"/Users/marioernestoms/projects/proxio.com/site/web/app/themes/theme-proxio/assets/css",
+			"/Users/marioernestoms/projects/proxio.com/site/web/app/themes",
+			"/Users/marioernestoms/projects/proxio.com/trellis",
+			"/Users/marioernestoms/projects/proxio.com",
+			"/Users/marioernestoms/projects/proxio.com/trellis",
+			"/Users/marioernestoms/projects/proxio.com/site/web/app/themes/theme-proxio",
+			"/Users/marioernestoms/projects/proxio.com/site/web/app/themes/proxio.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"include",
+			"autoprefixer",
+			"sass",
+			"imagemin",
+			"less",
+			"path.source",
+			"h3",
+			"h2",
+			"li",
+			"background",
+			"Project",
+			"about",
+			"}\n",
+			"navbar",
+			"});",
+			"<script src=\"js/preloadjs-0.6.1.min.js\"></script>",
+			"logo-piece-h",
+			"left",
+			"mail",
+			"newsfeed-container",
+			"newsfeed-loading",
+			"scrollable",
+			"id=\"newsfeed-loading\"",
+			"newsfeed-loading",
+			"text-overflow: ellipsis;",
+			"guide",
+			"guides-dropdown",
+			"the_guide_link",
+			"click",
+			"tel",
+			">\n",
+			"help-block",
+			"has-error",
+			"proxio-marketing-kit-widget",
+			"proxio-newsfeed-widget",
+			";\n",
+			".listings-title",
+			"ref",
+			"text-overflow: ellipsis;",
+			"http://",
+			"<h4 class=\"pdf-location three-lines\"><?php $agent->the_office_name(); ?></h4>",
+			"listing_generate",
+			"pdf-courtesy",
+			"pdf",
+			"delete",
+			"pdf-email ",
+			"cortesy",
+			"6",
+			"edit",
+			"purchase",
+			"Purchase",
+			"purchase",
+			";\n",
+			"get_mail_name",
+			"message",
+			"full",
+			"#box-address",
+			"age",
+			"infos",
+			"height",
+			"/* Default Colors */\n$primary-bg: #549cdb;\n$primary-bd: #5fa2dd;\n$primary-bg-hover: #398cd5;\n$primary-bd-hover: #4291d7;\n$primary-color: #fff;\n$primary-color-hover: #fff;\n\n$dark-bg: #363c40;\n$dark-bd: #3b4146;\n\n$default-bg: #f9f9f9;\n$default-bd: #cdd6e1;\n$default-color: #515151;\n$default-bg-hover: #e8e8e8;\n$default-bd-hover: #cdd6e1;\n$default-color-hover: #515151;\n\n/*Social medias colors */\n$facebook-color: #3b5998;\n$twitter-color: #00aced;\n$linkedin-color: #007bb5;\n$google-color: #dd4b39;\n$pinterest-color: #cb2027;\n$whatsapp-color: #4dc247;\n$wechat-color: #7bb32e;\n",
+			"proxio-view-agent-widget",
+			"id=\"send-message\"",
+			"id=\"send-message",
+			"Connected",
+			".'",
+			"market-myself",
+			"Beautiful Property",
+			"disable",
+			"Logo",
+			"//Full clickable card",
+			"card",
+			"cards",
+			"im",
+			"dear",
+			"nift",
+			"data-disable=\"click",
+			"5",
+			"Your profile has been updated!",
+			"niftyNoty",
+			"Save",
+			"Your profile has been updated!",
+			"niftyNoty",
+			"alert-danger",
+			"floating-top-right",
+			"<div id=\"floating-top-right\" class=\"floating-container\"></div>",
+			"id=\"market-myself\"",
+			"alert-danger",
+			"niftyNoty",
+			"notfy",
+			"p",
+			"noty",
+			"floating-top-right",
+			"Message Sent!",
+			"alert-message",
+			"p",
+			"h1",
+			"#fefefe",
+			"color",
+			"login-info",
+			"form-erros.php",
+			"mini-card-email-listing.php",
+			"message",
+			"mini-card-email-listing.php",
+			"templates",
+			"15px",
+			"333333",
+			".\n",
+			"Proxio Pro 2",
+			"connect_with_agents",
+			"Proxio Pro 2",
+			".brand-text",
+			"brand-text",
+			"Oficial ProxioPro v2 Theme.",
+			"Proxio Pro 2",
+			"Oficial ProxioPro v2 Theme.",
+			"ProxioPro 2",
+			"Pro 2",
+			"Pro",
+			"ProxioPro 2",
+			"Well done! You successfully upgraded.",
+			"\nWell done! You successfully upgraded your account.",
+			"Message sent!",
+			"open",
+			"the_langs",
+			"data-card-list-listing",
+			"is_network",
+			"tooltip"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#595e62",
+			"//fonts",
+			"Modal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1493,
+								336
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										350,
+										352
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"default_dir": "/Users/marioernestoms/projects/tests/html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/marioernestoms/projects/tests/html/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 26.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 23.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"html/template-parts/portfolio-html.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
