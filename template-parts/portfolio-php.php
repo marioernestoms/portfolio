@@ -2,7 +2,7 @@
 
 $exec_query = new WP_Query( array (
   'post_type' => 'portfolio',
-  'portfolio_categories'  => 'html-css-js',
+  'portfolio_categories'  => 'php',
   'posts_per_page' => -1
 ) );
 
