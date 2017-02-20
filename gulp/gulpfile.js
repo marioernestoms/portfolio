@@ -7,7 +7,6 @@ var browserSync  = require('browser-sync');
 var reload       = browserSync.reload;
 var jshint       = require('gulp-jshint');
 var sass         = require('gulp-sass');
-var notify       = require("gulp-notify") 
 var bower        = require('gulp-bower');
 var sourcemaps   = require('gulp-sourcemaps');
 var imagemin     = require('gulp-imagemin');
@@ -19,6 +18,7 @@ var config = {
     bowerDir: './../bower_components' ,
     publicDir: './../dist',
 };
+
 
 // browser-sync task for starting the server.
 gulp.task('browser-sync', function() {
@@ -43,42 +43,27 @@ gulp.task('lint', function() {
         .pipe(jshint.reporter('default'));
 });
 
-//font awesome
-gulp.task('icons', function() { 
-    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*') 
-        .pipe(gulp.dest(config.publicDir + '/fonts')); 
-});
-
 // Compile Our Sass
-gulp.task('css', function() {
-    return gulp.src('./../assets/css/main.scss')
-    .pipe(sass({
-      outputStyle: 'compressed',
-        includePaths: [
-            config.bowerDir + '/bootstrap-sass/assets/stylesheets',
-            config.bowerDir + '/font-awesome/scss',
-        ],
-                 
-    }))
-    
-    .pipe(autoprefixer({
-        browsers: [
-            'last 2 versions',
-            'android 4',
-            'opera 12'
-        ]
-
-    }))
-
-    .pipe(gulp.dest(config.publicDir + '/css'));
+gulp.task('sass', function () {
+    return gulp.src('../assets/css/main.scss')
+        .pipe(sass({
+          outputStyle: 'compressed',
+            includePaths: [
+                config.bowerDir + '/bootstrap-sass/assets/stylesheets',
+                config.bowerDir + '/font-awesome/scss',
+            ],
+                     
+        }))
+        .pipe(gulp.dest(config.publicDir + '/css'))
+        .pipe(reload({stream:true}));
 });
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
     return gulp.src('../assets/js/*.js')
-        .pipe(concat('main.js'))
-        .pipe(gulp.dest('../dist/scripts'))
-        .pipe(rename('main.min.js'))
+        .pipe(concat('all.js'))
+        .pipe(gulp.dest('dist'))
+        .pipe(rename('all.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist'));
 });
@@ -102,4 +87,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['browser-sync', 'lint', 'icons', 'css', 'scripts', 'images', 'watch']);
+gulp.task('default', ['browser-sync', 'lint', 'sass', 'scripts', 'images', 'watch']);
