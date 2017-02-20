@@ -1,6 +1,4 @@
 <?php
-// File Security Check
-defined('ABSPATH') OR exit;
 /**
  * Template Name: Homepage
  *
@@ -12,21 +10,16 @@ defined('ABSPATH') OR exit;
 get_header(); ?>
 
 <?php
+require get_template_directory() . '/pages/intro.php';
 
-$args = array( 
-    'post_type' => 'page', 'orderby' => 'menu_order',  'posts_per_page' => -1, 'order' => 'ASC' );
+require get_template_directory() . '/pages/about.php';
 
-$the_query = new WP_Query( $args );
+require get_template_directory() . '/pages/portfolio.php';
+
+require get_template_directory() . '/pages/blog.php';
+
+require get_template_directory() . '/pages/contact.php';
 
 ?>
-
-<?php if ( have_posts() ) : while ( $the_query -> have_posts() ) : $the_query -> the_post(); ?>
-    
-    <section id="<?php echo $post->post_name; ?>">
-        <?php the_content(); ?>
-    </section>
-
-<?php  endwhile; endif; ?>
-
 
 <?php get_footer(); ?>
