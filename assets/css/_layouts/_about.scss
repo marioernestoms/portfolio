@@ -1,13 +1,23 @@
 .about-section {
-    min-height: 110%;
-    padding-top: 70px;
-    background: #eee;
+  background-color: $section-gray;
+  padding-top: 70px;
+}
+
+.page-template-about #section-about {
+  padding-top: 90px;
+}
+
+.about-us {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px; 
+  padding-top: 3%; 
+  padding-bottom: 20px; 
 }
 
 .available-frelancer {
-    margin: 15px 0;
     padding: 10px 12px;
     border-radius: 0;
+    width: 100%;
 }
 
 .progress .progress-bar.six-sec-ease-in-out {
@@ -19,15 +29,33 @@
 }
 
 .top-zero{
+  font-size: 25px;
+  line-height: 1.2em;
   margin-top: 0;
+}
+
+.more-about {
+  font-size: 16px;
+  padding: 20px 0 30px;
+}
+
+.more-about a {
+  cursor: pointer;
+  border: 1px solid #4d8aae;
+  padding: 10px;
 }
 
 #company-information .about-us h2{
   margin-bottom: 45px;
 }
 
-.our-skills p {
-    font-size: 13px; 
+.title-subsections {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.our-skills {
+  width: 80%;
 }
 
 .single-skill {
@@ -35,21 +63,90 @@
 }
 
 .progress{
-    margin-bottom: 5px;
-    height: 20px;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+  background: #fff;
+  margin-bottom: 5px;
+  height: 20px;
 }
 
 .progress-bar{
-    font-size: 10px;
-    line-height: 20px;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+  font-size: 10px;
+  line-height: 20px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 .progress-bar.progress-bar-primary{
-    background: #00aeef;
+  background: #00aeef;
+}
+
+.gallery-image {
+  border: 3px solid #ccc;
+  width: 100%;
+  max-height: 170px;
+  overflow: hidden;
+}
+
+/* Our Skills */
+.our-skills {
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+/* Experience */
+#section-experience  {
+  background: url(../images/bg-jobs.png);
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: 15px;
+  color: rgba(26,26,26,.9);
+}
+
+.job-info {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.job-description p {
+  color: rgba(26,26,26,.7);
+  font-size: 16px;
+}
+
+/* Education */
+.education-photo {
+  border: 3px solid #ccc;
+  width: 70px;
+  height: 70px;
+}
+
+.education-description {
+  margin: 15px 0;
+}
+
+.education-description p {
+  color: rgba(26,26,26,0.7);
+  font-size: 14px;
+}
+
+/* Talks */
+.talk {
+  margin-bottom: 40px;
+  .talk-photo {
+    border: 3px solid #ccc;
+    width: 85%;
+    height: 150px;
+  }
+  .talk-info {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
 }
 
 

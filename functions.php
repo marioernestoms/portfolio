@@ -35,6 +35,14 @@ if ( ! function_exists( 'marioernestoms_setup' ) ) :
 		 */
 		add_theme_support( 'title-tag' );
 
+		/*
+		 * Enable support for Options Page ACF.
+		 */
+
+		if ( function_exists( 'acf_add_options_page' ) ) {
+			acf_add_options_page();
+		}
+
 		show_admin_bar( false );
 
 		/*
@@ -85,6 +93,7 @@ if ( ! function_exists( 'marioernestoms_setup' ) ) :
 
 		// Set up custom thumbnail sizes.
 		add_image_size( 'portfolio-size', 180, 180, true );
+		add_image_size( 'gallery-size', 255, 170, true );
 		add_image_size( 'blog-size', 180, 100, true );
 	}
 	endif;
