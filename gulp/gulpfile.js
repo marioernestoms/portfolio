@@ -70,13 +70,13 @@ gulp.task('scripts', function() {
 
 // Compress all images 
 gulp.task('images', function() {
-  return gulp.src(globs.images)
+  return gulp.src('../assets/images/*')
     .pipe(imagemin({
       progressive: true,
       interlaced: true,
       svgoPlugins: [{removeUnknownsAndDefaults: false}, {cleanupIDs: false}]
     }))
-    .pipe(gulp.dest('../assets/images'))
+    .pipe(gulp.dest('../dist/images'))
     .pipe(browserSync.stream());
 });
 

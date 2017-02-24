@@ -12,7 +12,7 @@ get_header(); ?>
 <?php
 require get_template_directory() . '/pages/intro.php';
 
-require get_template_directory() . '/pages/about.php';
+require get_template_directory() . '/pages/section-about.php';
 
 require get_template_directory() . '/pages/portfolio.php';
 

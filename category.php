@@ -12,7 +12,7 @@
  * @package marioernestoms
  */
 
-get_header('internals'); ?>
+get_header( 'internals' ); ?>
 
 <div id="primary" class="content-area pad-top">
 	<main id="main" class="site-main" role="main">
