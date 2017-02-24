@@ -48,12 +48,34 @@ img {
     margin-bottom: 15px;
 }
 
+.pad-no {
+    padding: 0;
+}
+
 .subtitles {
     font-size: 20px;
 }
 
 .highlight {
     color: #4d8aae;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.pad-top-sections {
+  padding-top: 60px;
+}
+
+.section-white {
+    background-color: $section-white;
+    padding: 30px 0;
+}
+
+.section-gray {
+    background-color: $section-gray;
+    padding: 30px 0;
 }
 
 pre.prettyprint {
