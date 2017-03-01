@@ -34,6 +34,7 @@ bin
 auth.json
 
 # OSX
+.DS_Store
 
 #Sass
 .sass-cache
