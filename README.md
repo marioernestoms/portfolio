@@ -22,5 +22,6 @@ This is a configuration of my web server with Trellis + Bedrock
 ## WordPress Theme Configuration
 
 1. Underscore (Theme Base)
-2. Gulp 
-3. Sass
+2. Gulp
+3. Bower
+4. Sass
