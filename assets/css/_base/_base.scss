@@ -18,19 +18,26 @@ time.entry-date.published {
   width: 100%;
 }
 
-.h1{font-size:36px;}
+h1.h1 {
+    font-size:36px;
+}
+
 h2,.h2 {
     font-size:30px;
 }
+
 h3,.h3 {
     font-size:24px;
 }
+
 h4,.h4 {
     font-size:18px;
 }
+
 h5,.h5 {
     font-size:14px;
 }
+
 h6,.h6 {
     font-size:12px;
 }
@@ -86,11 +93,11 @@ pre.prettyprint {
 
 .btn {
     border-radius: 0;
-}
-.btn-default {
-    background: transparent;
-    color: #fff;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    .btn-default {
+        background: transparent;
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    }
 }
 
 .scroll-down {

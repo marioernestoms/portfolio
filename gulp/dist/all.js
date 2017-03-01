@@ -85,4 +85,12 @@ jQuery(function($) {'use strict';
     $.each($('div.progress-bar'),function(){
         $(this).css('width', $(this).attr('data-transition')+'%');
     });
+
+    //Flexslider
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationSpeed: 800,
+      });
+    });
 });
