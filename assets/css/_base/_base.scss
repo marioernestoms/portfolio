@@ -93,11 +93,14 @@ pre.prettyprint {
 
 .btn {
     border-radius: 0;
-    .btn-default {
-        background: transparent;
-        color: #fff;
-        text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
-    }
+}
+
+.btn-default {
+    background: transparent;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 10px;
 }
 
 .scroll-down {
@@ -107,7 +110,6 @@ pre.prettyprint {
 }
 
 .services-section {
-    min-height: 80%;
     padding-top: 40px;
     text-align: center;
     background: #fff;
@@ -115,10 +117,10 @@ pre.prettyprint {
 
 .contact-section {
     min-height: 45%;
-    padding-top: 40px;
-    text-align: center;
+    padding: 40px 0;
     background: #fff;
 }
 .footer {
     padding-top: 50px;
+    text-align: center;
 }

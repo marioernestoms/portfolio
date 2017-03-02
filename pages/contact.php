@@ -14,7 +14,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<h1>Contact</h1>
-				<div class="footer">
+				<div class="footer row">
 					<div class="col-md-4" style="border-right: 1px dotted #ccc">
 						<p>
 							<h4 class="top-zero"><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 5px"></i> Contact me.</h4>

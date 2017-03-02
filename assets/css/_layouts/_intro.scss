@@ -1,6 +1,5 @@
 .intro-section {
-    min-height: 70%;
-    padding-top: 90px;
+    padding-top: 14vh;
     text-align: center;
     background: #073047;
     background: -moz-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
@@ -10,18 +9,39 @@
     background: -ms-linear-gradient(-45deg, #073047 0%,#225f81 51%,#4d8aae 100%);
     background: linear-gradient(135deg, #073047 0%,#225f81 51%,#4d8aae 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073047', endColorstr='#4d8aae',GradientType=1 );
+    position: relative;
 }
+
+.intro {
+    text-align: left;
+}
+
 .intro-title {
     color: #fff;
-    margin-top: 18vh;
+    font-size: 32px;
+    margin-top: 14vh;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
+
+.intro-subtitle {
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
 .figure-box {
     text-align: left;
-    margin-top: 20px;
+    position: absolute;
+    top: 3vh;
 }
+
 .intro-section img {
+    max-width: 540px;
+    max-height: 420px;
     width: 100%;
 }
+
 .call-to-actions .btn {
     box-shadow: 0 2px 0 rgba(0,0,0,0.05);
     padding: 10px 18px;

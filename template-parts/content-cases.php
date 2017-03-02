@@ -7,10 +7,10 @@
 
 <section id="section-cases" class="section-gray">
 	<div class="row">
-		<div class="col-lg-6">
+		<div class="col-lg-6 col-md-6 col-sm-6">
 			<img src="<?php bloginfo( 'template_directory' )?>/dist/images/macbookpro.jpeg" class="img-responsive">
 		</div>
-		<div class="timeline col-lg-6">
+		<div class="timeline col-lg-6 col-md-6 col-sm-6">
 					
 			<!-- Timeline header -->
 			<div class="timeline-header">
