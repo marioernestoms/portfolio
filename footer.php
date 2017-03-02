@@ -12,6 +12,9 @@
 ?>
 	</div><!-- #content -->
 	<footer id="colophon" class="site-footer col-md-12" role="contentinfo">
+		
+		<?php require get_template_directory() . '/pages/contact.php'; ?>	
+	
 		<div class="container">
 			<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'marioernestoms' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'marioernestoms' ), 'WordPress' ); ?></a>

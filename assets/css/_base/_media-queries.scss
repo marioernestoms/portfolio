@@ -1,0 +1,57 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+@media only screen and (max-width : 1024px) {
+	.timeline {
+	    height: 318px;
+	}
+	.timeline-stat {
+	    width: 72px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.timeline {
+	    height: 318px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.timeline {
+	    height: 258px;
+	}
+	.timeline-entry {
+	    margin-bottom: 12px;
+	}
+	.timeline-stat {
+	    width: 72px;
+	}
+	.timeline-label {
+	    padding: 5px 10px;
+	}
+	.text-info {
+	    font-size: 16px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .blog-wrapper {
+	    height: 390px !important;
+	}
+	#section-testimonials {
+	    text-align: center;
+	}
+	.timeline {
+	    width: 95%;
+	    height: 318px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

@@ -18,8 +18,6 @@ require get_template_directory() . '/pages/portfolio.php';
 
 require get_template_directory() . '/pages/blog.php';
 
-require get_template_directory() . '/pages/contact.php';
-
 ?>
 
 <?php get_footer(); ?>

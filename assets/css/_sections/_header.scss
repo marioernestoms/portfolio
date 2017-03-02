@@ -1,10 +1,16 @@
+.navbar {
+    padding: 2px 0;
+}
+
 .navbar-nav {
     float: right;
 }
+
 .navbar-default {
     background: transparent;
     border-color: transparent;
 }
+
 .navbar-internals {
     background: #073047;
     background: -moz-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
@@ -15,6 +21,7 @@
     background: linear-gradient(135deg, #073047 0%,#225f81 51%,#4d8aae 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073047', endColorstr='#4d8aae',GradientType=1 );
 }
+
 .top-nav-collapse {
     background: #073047;
     background: -moz-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
@@ -25,12 +32,27 @@
     background: linear-gradient(135deg, #073047 0%,#225f81 51%,#4d8aae 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073047', endColorstr='#4d8aae',GradientType=1 );
 }
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    text-transform: uppercase;
 }
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #89c373;
+}
+
 .navbar-default .navbar-nav>li>a:focus {
     background: #fff;
+}
+
+.current-menu-item {
+    color: #fff;
+    background-color: #89c373;
 }
 
 .navbar-brand {
