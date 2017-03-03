@@ -12,7 +12,7 @@
 						<img class="education-photo" src="<?php echo $image[ 'url' ]; ?>" />
 					</figure>
 				<?php else : ?>
-					<img class="talk-photo" src="http://placehold.it/480x270">
+					<img class="talk-photo" src="https://placehold.it/480x270">
 				<?php endif; ?>
 			</div>
 			<div class="col-md-11 col-sm-11">

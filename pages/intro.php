@@ -22,8 +22,8 @@
 					<h1 class="intro-title">Full Stack Development is my specialty and WordPress is my passion.</h2>
 					<h2 class="intro-subtitle">themes and Plugins with a perfect balance between code standard and best performance.</h3>
 					<div class="call-to-actions"> 
-						<button type="button" class="btn btn-default">Hire Me</button> 
-						<button type="button" class="btn btn-primary">Quote a Project</button> 
+						<!--<a class="btn btn-default">Hire Me</a> 
+						<a class="btn btn-primary">Quote a Project</a>-->
 					</div>
 				</div>
 			</div>

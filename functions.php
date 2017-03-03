@@ -141,6 +141,15 @@ function marioernestoms_scripts() {
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/bower_components/font-awesome/css/font-awesome.min.css', array(), $marioernesto_version, 'all' );
 
+	// Roboto Font Family
+	wp_enqueue_style( 'roboto-family', '//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700,700italic', array(), null, 'all' );
+
+	// Open Sans Font Family
+	wp_enqueue_style( 'open-sans-family', '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', array(), null, 'all' );
+
+	// Open Sans Font Family
+	wp_enqueue_style( 'montserrat-family', '//fonts.googleapis.com/css?family=Montserrat:400,600,700', array(), null, 'all' );
+
 	wp_enqueue_style( 'flexslider-style', get_template_directory_uri() . '/bower_components/flexslider/flexslider.css', array(), null, 'all' );
 
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/main.css', array(), $marioernesto_version, 'all' );

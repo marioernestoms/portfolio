@@ -30,7 +30,7 @@
 									<?php else : ?>
 								
 										<a href="<?php the_permalink() ?>">
-											<img data-src="holder.js/200x200" src="http://placehold.it/180x100" class="img-fluid" width="180px" height="180px">
+											<img data-src="holder.js/200x200" src="https://placehold.it/180x100" class="img-fluid" width="180px" height="180px">
 										<!--<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/no-image.jpg" alt="<?php the_title(); ?>" />-->
 										</a>
 									<?php endif; ?>

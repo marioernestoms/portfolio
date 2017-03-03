@@ -34,8 +34,9 @@ function marioernestoms_posted_on() {
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);*/
 
+	/*
 	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
-
+	*/
 }
 endif;
 
@@ -46,12 +47,13 @@ if ( ! function_exists( 'marioernestoms_entry_footer' ) ) :
 function marioernestoms_entry_footer() {
 	// Hide category and tag text for pages.
 	if ( 'post' === get_post_type() ) {
-		/* translators: used between list items, there is a space after the comma */
+		/* translators: used between list items, there is a space after the comma 
 		$categories_list = get_the_category_list( esc_html__( ', ', 'marioernestoms' ) );
 		if ( $categories_list && marioernestoms_categorized_blog() ) {
 			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'marioernestoms' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 		}
-
+		*/
+		
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'marioernestoms' ) );
 		if ( $tags_list ) {

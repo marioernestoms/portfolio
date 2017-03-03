@@ -62,7 +62,7 @@
 			     		the_post_thumbnail( 'testimonials-size' );
 			     	} else { ?>
 
-			     	<img src="http://placehold.it/70x70"  width="70px" height="70px" />
+			     	<img src="https://placehold.it/70x70"  width="70px" height="70px" />
 
 			     	<?php } ?>
 			      
