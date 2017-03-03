@@ -17,7 +17,7 @@ if ( $exec_query->have_posts() ) { ?>
                         <?php if ( has_post_thumbnail() ) {
                             the_post_thumbnail( 'portfolio-size' );
                         } else { ?>
-                            <img src="http://placehold.it/180x180" class="img-responsive" alt="">
+                            <img src="https://placehold.it/180x180" class="img-responsive" alt="">
                             <!--<img src="<?php bloginfo('template_directory'); ?>/assets/images/no-image.jpg" alt="<?php the_title(); ?>" />-->
                         <?php } ?>
                     </div>

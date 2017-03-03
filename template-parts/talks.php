@@ -4,16 +4,18 @@
 		
 		<article class="talk col-md-12">
 			<div class="col-md-4">
-				<?php
-				$image = get_sub_field( 'thumbnail' );
-				if ( $image ) : ?>
-							
-					<figure>
-						<img class="talk-photo" src="<?php echo $image[ 'url' ]; ?>" />
-					</figure>
-				<?php else : ?>
-					<img class="talk-photo" src="http://placehold.it/480x270">
-				<?php endif; ?>
+				<a href="<?php the_sub_field( 'talk_link' ); ?>" target="_blank">
+					<?php
+					$image = get_sub_field( 'thumbnail' );
+					if ( $image ) : ?>
+								
+						<figure>
+							<img class="talk-photo" src="<?php echo $image[ 'url' ]; ?>" />
+						</figure>
+					<?php else : ?>
+						<img class="talk-photo" src="https://placehold.it/480x270">
+					<?php endif; ?>
+				</a>
 			</div>
 			<div class="talk-info col-md-8">
 				<h4><a href="<?php the_sub_field( 'talk_link' ); ?>" target="_blank"><?php the_sub_field( 'talk_name' ); ?></a></h4>

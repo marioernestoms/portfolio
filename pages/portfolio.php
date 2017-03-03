@@ -38,7 +38,7 @@
 												<?php if ( has_post_thumbnail() ) {
 													the_post_thumbnail( 'portfolio-size' );
 												}else { ?>
-												<img src="http://placehold.it/180x180" class="img-responsive" alt="">
+												<img src="https://placehold.it/180x180" class="img-responsive" alt="">
 												<!--<img src="<?php bloginfo('template_directory'); ?>/assets/images/no-image.jpg" alt="<?php the_title(); ?>" />-->
 												<?php } ?>
 											</div>
@@ -61,12 +61,16 @@
 						</div>
 
 						<div id="tab-2" class="tab-pane fade">
+							<?php include( get_template_directory() . '/template-parts/portfolio-all.php' ); ?>
+						</div>
+
+						<div id="tab-3" class="tab-pane fade">
 							<?php include( get_template_directory() . '/template-parts/portfolio-html.php' ); ?>
 						</div>
-						<div id="tab-3" class="tab-pane fade">
+						<div id="tab-4" class="tab-pane fade">
 							<?php include( get_template_directory() . '/template-parts/portfolio-php.php' ); ?>
 						</div>
-						<div id="tab-4" class="tab-pane fade">\
+						<div id="tab-5" class="tab-pane fade">\
 							<?php include( get_template_directory() . '/template-parts/portfolio-wordpress.php' ); ?>
 						</div>
 					</div>

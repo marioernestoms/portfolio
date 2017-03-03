@@ -32,7 +32,7 @@
 				<?php else : ?>
 			
 					<a href="<?php the_permalink() ?>">
-						<img src="http://placehold.it/180x100" class="img-responsive" alt="">
+						<img src="https://placehold.it/180x100" class="img-responsive" alt="">
 					<!--<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/no-image.jpg" alt="<?php the_title(); ?>" />-->
 					</a>
 				<?php endif; ?>
