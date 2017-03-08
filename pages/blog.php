@@ -49,7 +49,8 @@
 			endwhile;
 			wp_reset_postdata();
 			?>
-
+		</div>
+		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="more-about ui stacked spaced segment">
 					<a href="<?php echo the_permalink(); ?>/about"><?php _e( 'See More Posts', 'marioernestoms' ); ?></a>

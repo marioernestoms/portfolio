@@ -2,8 +2,8 @@
 
 <?php while ( have_rows( 'talk' ) ) : the_row(); ?>
 		
-		<article class="talk col-md-12">
-			<div class="col-md-4">
+		<article class="talk row">
+			<div class="col-sm-4 col-md-4">
 				<a href="<?php the_sub_field( 'talk_link' ); ?>" target="_blank">
 					<?php
 					$image = get_sub_field( 'thumbnail' );
@@ -17,7 +17,7 @@
 					<?php endif; ?>
 				</a>
 			</div>
-			<div class="talk-info col-md-8">
+			<div class="talk-info col-sm-8 col-md-8">
 				<h4><a href="<?php the_sub_field( 'talk_link' ); ?>" target="_blank"><?php the_sub_field( 'talk_name' ); ?></a></h4>
 				<p class="text-small"><?php the_sub_field( 'date' ); ?></p>
 				<p class="text-small"><i class="fa fa-globe" aria-hidden="true"></i> <?php the_sub_field( 'location' ); ?></p>

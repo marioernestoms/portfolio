@@ -1,8 +1,11 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
+
 }
 @media only screen and (max-width : 1024px) {
+	.gallery-image {
+	    max-height: 145px;
+	}
 	.timeline {
 	    height: 318px;
 	}
@@ -20,6 +23,28 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.intro-title {
+    	font-size: 28px;
+    	margin-top: 5vh;
+    }
+    .intro-subtitle {
+    	color: #b9b9b9;
+    	font-size: 16px;
+    }
+    .about-img  {
+	  text-align: center;
+	  padding: 15px 0;
+	  img {
+	  	display: block;
+		margin-left: auto;
+		margin-right: auto;
+	    width: 254px !important;
+	    height: auto;
+	  }
+	}
+	.gallery-image {
+	    max-height: 106px;
+	}
 	.timeline {
 	    height: 258px;
 	}
@@ -39,6 +64,26 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.intro {
+	    text-align: center;
+	}
+	.intro-title {
+	    margin-bottom: 5px;
+	}
+	.intro-subtitle {
+	    margin-top: 15px;
+	}
+	.our-skills {
+	    width: 100%;
+	}
+	.education-box {
+		text-align: center;
+	}
+	.education-photo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
     .blog-wrapper {
 	    height: 390px !important;
 	}
@@ -53,5 +98,10 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.intro-title {
+	    font-size: 24px;
+	}
+	.intro-subtitle {
+	    margin-top: 8px;
+	}
 }

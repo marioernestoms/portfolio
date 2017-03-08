@@ -156,7 +156,7 @@ function marioernestoms_scripts() {
 
 	wp_enqueue_style( 'marioernestoms-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', array(), $marioernesto_version, 'all' );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array(), $marioernesto_version, 'all' );
 
 	wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/bower_components/flexslider/jquery.flexslider-min.js', array(), null, true );
 
