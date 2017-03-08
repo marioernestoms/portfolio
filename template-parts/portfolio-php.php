@@ -10,7 +10,7 @@ if ( $exec_query->have_posts() ) { ?>
 
 <?php while ( $exec_query->have_posts() ): $exec_query->the_post(); ?>
 
-		<div class="col-xs-6 col-sm-6 col-md-3 portfolio-item branded logos">
+		<div class="col-md-3 col-xs-6">
 			<div class="portfolio-wrapper">
 				<div class="portfolio-single">
 					<div class="portfolio-thumb">

@@ -15,7 +15,7 @@
 		<h2 class="subtitles highlight">I’ve currently put my latest or most amazing projects.</h2>
 		<div class="row" style="padding-top: 5%;">
 			<div class="tab-base tab-stacked-left"> 
-				<div class="col-md-9 col-sm-8">
+				<div class="col-md-8">
 					<?php the_content(); ?>
 					<!--Tabs Content-->
 					<div class="tab-content">
@@ -31,7 +31,7 @@
 
 							<?php while ( $exec_query->have_posts() ): $exec_query->the_post(); ?>
 
-								<div class="col-xs-6 col-sm-6 col-md-3 portfolio-item branded logos">
+								<div class="col-xs-6 col-md-3">
 									<div class="portfolio-wrapper">
 										<div class="portfolio-single">
 											<div class="portfolio-thumb">
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-4">
+				<div class="col-md-4">
 					<div>
 						<!--Nav tabs-->
 						<div class="sidebar portfolio-sidebar">

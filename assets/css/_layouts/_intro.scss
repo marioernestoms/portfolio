@@ -1,6 +1,5 @@
 .intro-section {
     padding-top: 14vh;
-    padding-bottom: 14vh;
     text-align: center;
     background: #073047;
     background: -moz-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
@@ -31,16 +30,12 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
-.figure-box {
-    text-align: left;
-    position: absolute;
-    top: 3vh;
+.intro-image {
+    position: relative;
 }
 
 .intro-section img {
     max-width: 540px;
-    max-height: 420px;
-    width: 100%;
 }
 
 .call-to-actions .btn {

@@ -77,12 +77,14 @@ img {
 
 .section-white {
     background-color: $section-white;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-gray {
     background-color: $section-gray;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 pre.prettyprint {
