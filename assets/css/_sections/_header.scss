@@ -11,6 +11,11 @@
     border-color: transparent;
 }
 
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    padding: 0;
+}
+
 .navbar-internals {
     background: #073047;
     background: -moz-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
@@ -33,6 +38,31 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073047', endColorstr='#4d8aae',GradientType=1 );
 }
 
+.in {
+    background: #073047;
+    background: -moz-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #073047), color-stop(51%, #225f81), color-stop(100%, #4d8aae));
+    background: -webkit-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
+    background: -o-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
+    background: -ms-linear-gradient(-45deg, #073047 0%, #225f81 51%, #4d8aae 100%);
+    background: linear-gradient(135deg, #073047 0%, #225f81 51%, #4d8aae 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073047', endColorstr='#4d8aae',GradientType=1 );
+}
+
+.navbar-collapse.in .navbar-nav {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #89c373;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
     color: #fff;
@@ -43,6 +73,11 @@
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
+    background-color: #89c373;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
     background-color: #89c373;
 }
 

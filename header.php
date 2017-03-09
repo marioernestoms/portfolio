@@ -23,7 +23,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" <?php body_class(); ?>>
 
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header page-scroll">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -36,17 +36,15 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<?php
-					wp_nav_menu( array(
-						'theme_location'  => 'primary',
-						'items_wrap'      => '<ul class="nav navbar-nav">%3$s</ul>',
-						'walker'          => '',
-					) );
-					?>
-					</div>
-				</div>
-				<!-- /.navbar-collapse -->
+				<?php
+				wp_nav_menu( array(
+					'theme_location'  => 'primary',
+					'items_wrap'      => '<ul class="nav navbar-nav">%3$s</ul>',
+					'walker'          => '',
+				) );
+				?>
 			</div>
-			<!-- /.container -->
-		</nav>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
