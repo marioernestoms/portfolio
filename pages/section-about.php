@@ -11,9 +11,10 @@
 
 <section id="section-about" class="section-gray">
 	<div class="container">
+		<h1>About Me</h1>
+		<h2 class="subtitles highlight">This is the place to know a little bit about me and my work.</h2>
+		
 		<div class="row">
-			<h1>About Me</h1>
-			<h2 class="subtitles highlight">This is the place to know a little bit about me and my work.</h2>
 			<div class="about-img col-sm-4 col-md-3">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eu.jpg" class=" img-responsive">
 			</div>
