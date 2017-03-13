@@ -23,7 +23,7 @@
 				endif;
 			?>
 		</header>
-		<div class="portfolio-thumb">
+		<div class="blog-thumb">
 			<a href="<?php the_permalink() ?>">
 				<?php if ( has_post_thumbnail() ) :
 					the_post_thumbnail();
