@@ -60,6 +60,9 @@
 	.text-info {
 	    font-size: 16px;
 	}
+	.entry-title {
+	    font-size: 2.85em;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -73,6 +76,12 @@
 	.intro-subtitle {
 	    margin-top: 15px;
 	}
+	.portfolio-single {
+	    width: 135px;
+	}
+	.portfolio-info {
+	    font-size: 12px;
+	}
 	.our-skills {
 	    width: 100%;
 	}
@@ -84,8 +93,21 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.carousel-inner .item .testimonials {
+	    margin: 0 10%;
+	    width: 80%;
+	}
+	.carousel-inner .item .testimonials .testimonials-description {
+	    color: rgba(26,26,26,0.7);
+	    font-size: 16px;
+	    font-style: italic;
+	    margin-top: 20px;
+	}
     .blog-wrapper {
 	    height: 390px !important;
+	}
+	.entry-title {
+	    font-size: 1.78em;
 	}
 	#section-testimonials {
 	    text-align: center;
@@ -103,5 +125,11 @@
 	}
 	.intro-subtitle {
 	    margin-top: 8px;
+	}
+	.portfolio-single {
+	    width: 100px;
+	}
+	.entry-title {
+	    font-size: 36px;
 	}
 }
