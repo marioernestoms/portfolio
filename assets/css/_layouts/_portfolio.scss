@@ -3,13 +3,28 @@
     background: #fff;
 }
 
-.portfolio-sidebar {
-    width: 100%;
-    float: left;
-}
-
 .portfolio-wrapper {
     position: relative;
+}
+
+.portfolio-single {
+    position: relative;
+    width: 180px;
+    height: auto;
+}
+
+.portfolio-thumb:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.8s;
+    opacity: 0;
+    background: #337ab7;
+    background-size: 100% 100%;
+    opacity: 0.5;
 }
 
 .portfolio-view {
