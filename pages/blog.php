@@ -53,7 +53,7 @@
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="more-about ui stacked spaced segment">
-					<a href="<?php echo the_permalink(); ?>/about"><?php _e( 'See More Posts', 'marioernestoms' ); ?></a>
+					<a href="<?php echo the_permalink(); ?>blog"><?php _e( 'See More Posts', 'marioernestoms' ); ?></a>
 				</div>
 			</div>
 		</div>

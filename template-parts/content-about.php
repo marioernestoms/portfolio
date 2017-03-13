@@ -5,7 +5,7 @@
 		<div class="about-us row">
 
 			<div class="about-img col-sm-4 col-md-3">
-				<img src="<?php bloginfo( 'template_directory' )?>/assets/images/eu.jpg" class="img-responsive" alt="">
+				<img src="<?php bloginfo( 'template_directory' )?>/assets/images/eu.jpg" class="img-responsive" alt="Mario Ernesto Profile" width="254" height="254">
 			</div>
 			<div class="col-sm-8 col-md-9">
 				<h3 class="top-zero"><?php the_field( 'top_zero' ) ?></h3>

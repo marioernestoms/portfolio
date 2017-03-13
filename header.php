@@ -23,7 +23,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" <?php body_class(); ?>>
 
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header page-scroll">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>
