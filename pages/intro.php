@@ -15,7 +15,7 @@
 			<div class="col-sm-6 col-md-6">
 				<div class="intro-image">
 					<div class="figure-box"> 
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mario.png" alt="Mario Ernesto">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mario.png" alt="Mario Ernesto" width="609" height="473">
 					</div>
 				</div>
 			</div>
