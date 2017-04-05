@@ -16,64 +16,59 @@
 		<div class="row" style="padding-top: 5%;">
 			<div class="tab-base tab-stacked-left"> 
 				<div class="row">
-					<div class="col-xs-12 col-sm-8 col-md-8">
-						<?php the_content(); ?>
-						<!--Tabs Content-->
-						<div class="tab-content">
-							<?php 
-							$count = 1;
+					<!--Tabs Content-->
+					<div class="tab-content col-xs-12 col-sm-8 col-md-8">
+						<?php 
+						$count = 1;
+						?>
+
+						<div id="tab-1" class="tab-pane fade active in">
+							<?php
+							$exec_query = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => -1 ) );
+							if ( $exec_query->have_posts() ) {
 							?>
 
-							<div id="tab-1" class="tab-pane fade active in">
-								<?php
-								$exec_query = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => -1 ) );
-								if ( $exec_query->have_posts() ) {
-								?>
+							<?php while ( $exec_query->have_posts() ): $exec_query->the_post(); ?>
 
-								<?php while ( $exec_query->have_posts() ): $exec_query->the_post(); ?>
-
-									<div class="col-xs-6 col-sm-5 col-md-4 col-lg-3">
-										<div class="portfolio-wrapper">
-											<div class="portfolio-single">
-												<div class="portfolio-thumb">
-													<?php if ( has_post_thumbnail() ) {
-														the_post_thumbnail( 'portfolio-size' );
-													}else { ?>
-													<img src="https://placehold.it/180x180" class="img-responsive" alt="">
-													<!--<img src="<?php bloginfo('template_directory'); ?>/assets/images/no-image.jpg" alt="<?php the_title(); ?>" />-->
-													<?php } ?>
-												</div>
-												<div class="portfolio-view">
-													<ul class="nav nav-pills">
-														<li><a href="<?php echo the_field( 'link_externo' ); ?>" target="_blank"><i class="fa fa-link"></i></a></li>
-														<li><a href="images/portfolio/1.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="portfolio-info ">
-												<p><?php the_title();?></p>
-											</div>
+								<div class="col-xs-6 col-sm-5 col-md-4 col-lg-3">
+									<div class="portfolio-wrapper">
+										<div class="portfolio-thumb">
+											<?php if ( has_post_thumbnail() ) {
+												the_post_thumbnail( 'portfolio-size' );
+											}else { ?>
+											<img src="https://placehold.it/180x180" class="img-responsive" alt="">
+											<!--<img src="<?php bloginfo('template_directory'); ?>/assets/images/no-image.jpg" alt="<?php the_title(); ?>" />-->
+											<?php } ?>
+										</div>
+										<!--<div class="portfolio-view">
+											<ul class="nav nav-pills">
+												<li><a href="<?php echo the_field( 'link_externo' ); ?>" target="_blank"><i class="fa fa-link"></i></a></li>
+												<li><a href="images/portfolio/1.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+											</ul>
+										</div>-->
+										<div class="portfolio-info ">
+											<p><?php the_title();?></p>
 										</div>
 									</div>
+								</div>
 
-								<?php endwhile; ?>
+							<?php endwhile; ?>
 
-								<?php wp_reset_postdata(); } ?>
-							</div>
+							<?php wp_reset_postdata(); } ?>
+						</div>
 
-							<div id="tab-2" class="tab-pane fade">
-								<?php include( get_template_directory() . '/template-parts/portfolio-all.php' ); ?>
-							</div>
+						<div id="tab-2" class="tab-pane fade">
+							<?php include( get_template_directory() . '/template-parts/portfolio-all.php' ); ?>
+						</div>
 
-							<div id="tab-3" class="tab-pane fade">
-								<?php include( get_template_directory() . '/template-parts/portfolio-html.php' ); ?>
-							</div>
-							<div id="tab-4" class="tab-pane fade">
-								<?php include( get_template_directory() . '/template-parts/portfolio-php.php' ); ?>
-							</div>
-							<div id="tab-5" class="tab-pane fade">\
-								<?php include( get_template_directory() . '/template-parts/portfolio-wordpress.php' ); ?>
-							</div>
+						<div id="tab-3" class="tab-pane fade">
+							<?php include( get_template_directory() . '/template-parts/portfolio-html.php' ); ?>
+						</div>
+						<div id="tab-4" class="tab-pane fade">
+							<?php include( get_template_directory() . '/template-parts/portfolio-php.php' ); ?>
+						</div>
+						<div id="tab-5" class="tab-pane fade">
+							<?php include( get_template_directory() . '/template-parts/portfolio-wordpress.php' ); ?>
 						</div>
 					</div>
 
