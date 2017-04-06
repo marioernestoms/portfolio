@@ -4,7 +4,7 @@
  *
  * The template for displaying page About Me.
  *
-* @package marioernestoms
+ * @package marioernestoms
  */
 
 ?>
