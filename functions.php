@@ -43,7 +43,13 @@ if ( ! function_exists( 'marioernestoms_setup' ) ) :
 			acf_add_options_page();
 		}
 
-		show_admin_bar( false );
+		/**
+		 * Enable support for Excerpt on Pages.
+		 */
+		function excerpt_pages() {
+		     add_post_type_support( 'page', 'excerpt' );
+		}
+		add_action( 'init', 'excerpt_pages' );
 
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
