@@ -12,7 +12,7 @@
 <section id="section-about" class="section-gray">
 	<div class="container">
 		<h1><?php _e( 'About Me', 'marioernestoms' ); ?></h1>
-		<h2 class="subtitles highlight"><?php esc_html( 'This is the place to know a little bit about me and my work.', 'marioernestoms' ); ?></h2>
+		<h2 class="subtitles highlight"><?php _e( 'This is the place to know a little bit about me and my work.', 'marioernestoms' ); ?></h2>
 		
 		<div class="row">
 			<div class="about-img col-sm-4 col-md-3">
