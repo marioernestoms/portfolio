@@ -1,6 +1,6 @@
 <?php
 /**
- * marioernestoms functions and definitions.
+ * Marioernestoms functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -143,33 +143,48 @@ function marioernestoms_scripts() {
 
 	$marioernesto_version = '1.0.1';
 
-	wp_enqueue_script( 'jquery', array(), $marioernesto_version, 'all' );
-
+	/**
+	 * Styles.
+	 */
+	// Font Awesome Font Family!
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/bower_components/font-awesome/css/font-awesome.min.css', array(), $marioernesto_version, 'all' );
 
-	// Roboto Font Family
+	// Roboto Font Family!
 	wp_enqueue_style( 'roboto-family', '//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700,700italic', array(), null, 'all' );
 
-	// Open Sans Font Family
+	// Open Sans Font Family!
 	wp_enqueue_style( 'open-sans-family', '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', array(), null, 'all' );
 
-	// Open Sans Font Family
+	// Open Sans Font Family!
 	wp_enqueue_style( 'montserrat-family', '//fonts.googleapis.com/css?family=Montserrat:400,600,700', array(), null, 'all' );
 
+	// Flexslider!
 	wp_enqueue_style( 'flexslider-style', get_template_directory_uri() . '/bower_components/flexslider/flexslider.css', array(), null, 'all' );
 
+	// Main CSS from gulp compilation!
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/main.css', array(), $marioernesto_version, 'all' );
 
+	// Main CSS from WordPress to register theme.
 	wp_enqueue_style( 'marioernestoms-style', get_stylesheet_uri() );
 
+	/**
+	 * Scripts.
+	 */
+	// Jquery.
+	wp_enqueue_script( 'jquery', array(), $marioernesto_version, 'all' );
+
+	// Bootstrap JS.
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array(), $marioernesto_version, 'all' );
 
+	// Flexslider WooThemes.
 	wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/bower_components/flexslider/jquery.flexslider-min.js', array(), null, true );
 
 	wp_enqueue_script( 'easing', get_template_directory_uri() . '/assets/js/jquery.easing.min.js', array(), $marioernesto_version, 'all' );
 
+	// Code Prettifier.
 	wp_enqueue_script( 'prettifier', 'https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js' );
 
+	// Main.js from gulp compilation.
 	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/assets/js/scripts.js', array(), $marioernesto_version, 'all' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
